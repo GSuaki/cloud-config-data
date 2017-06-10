@@ -1,5 +1,7 @@
 ---
 # Items that apply to ALL profiles:
+server:
+  port: "${PORT:${SERVER_PORT:0}}"
 eureka:
   client:
     serviceUrl:
